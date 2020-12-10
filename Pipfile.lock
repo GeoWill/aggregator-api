@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5c4180bca8e63c1f8271600479f03a2035746007e5d80a22812ac3bb02634ce1"
+            "sha256": "4da221023c43d640f16cacaec141de7147a0330c1c6efcf457d301228a4f4b5f"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -74,12 +74,8 @@
             "version": "==20.3.0"
         },
         "aws-wsgi": {
-            "hashes": [
-                "sha256:37e16b6a211f251d9f72ab85018c4127a59dc0fc81263c19f312a6a8333f9908",
-                "sha256:eb0b00970e80d96b52c0806ceae2ff98ab96c90f67651765755c5236f9e6e50d"
-            ],
-            "index": "pypi",
-            "version": "==0.2.7"
+            "git": "https://github.com/DemocracyClub/awsgi.git",
+            "ref": "61d60b7d2fd900dcf6dd4d353fa5a54931937718"
         },
         "cffi": {
             "hashes": [
@@ -434,10 +430,10 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:1f422849db327d534e3d0c5f02a263458c3955ec0aae4ff09b95f195c59f4edd",
-                "sha256:f05def092c44fbf25834a51509ef6e631dc19765ab8a57b4e7ab85531f0a9cf4"
+                "sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c",
+                "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"
             ],
-            "version": "==2020.11.8"
+            "version": "==2020.12.5"
         },
         "chardet": {
             "hashes": [
